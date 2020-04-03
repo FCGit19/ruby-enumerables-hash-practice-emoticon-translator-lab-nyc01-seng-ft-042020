@@ -28,6 +28,7 @@ end
 def get_english_meaning(path, symbol)
   each_emoticon = load_library(path)
   translation = ''
+  unknown_emoticon = "Sorry, that emoticon was not found"
     each_emoticon.each do |name, value|
       if each_emoticon[name][:japanese] == symbol
         translation = name
@@ -36,7 +37,7 @@ def get_english_meaning(path, symbol)
         
         if each_emoticon[name][:japenese] != symbol
         end
-        "Sorry, that emoticon was not found"
+        unknown_emoticon
       
     end
     translation
