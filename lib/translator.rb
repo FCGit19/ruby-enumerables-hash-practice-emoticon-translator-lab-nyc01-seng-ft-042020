@@ -33,5 +33,4 @@ def get_english_meaning(path, symbol)
         binding.pry
       end
     end
-    translate[:name][:english]
 end
