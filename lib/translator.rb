@@ -27,7 +27,7 @@ end
 
 def get_english_meaning(path, symbol)
   translate = load_library(path)
-    translate.each do |symbol|
+    translate.each do |name|
       binding.pry
     end
 end
