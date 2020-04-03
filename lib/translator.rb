@@ -36,7 +36,7 @@ def get_english_meaning(path, symbol)
         
         if each_emoticon[name][:japenese] != symbol
         end
-        unknown_emoticon = "Sorry, that emoticon was not found"
+        "Sorry, that emoticon was not found"
       
     end
     translation
