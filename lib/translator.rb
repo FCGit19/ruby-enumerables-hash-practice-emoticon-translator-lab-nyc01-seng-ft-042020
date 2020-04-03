@@ -25,6 +25,6 @@ end
 
 
 def get_english_meaning(load_library, symbol)
-  
+  load_library(YAML.load_file)
   
 end
