@@ -10,7 +10,7 @@ def load_library(path)
     
   }
   
-  binding.pry
+  # binding.pry
     emoticons.each do |key, value|
       emoticon_names
    
