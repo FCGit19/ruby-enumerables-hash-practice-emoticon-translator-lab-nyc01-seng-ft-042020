@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 require 'yaml'
 
 def load_library(path)
@@ -30,7 +30,8 @@ def get_english_meaning(path, symbol)
     each_emoticon.each do |name, value|
       if each_emoticon[name][:japanese] == symbol
         name
-        binding.pry
+      end 
+        # binding.pry
       
     end
 end
