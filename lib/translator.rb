@@ -11,7 +11,7 @@ def load_library(path)
   }
   
   binding.pry
-    emoticons.each do |name, symbol|
+    emoticons.each do |key, value|
    
   #     if !emoticon_names[name]
   #       emoticon_names[name] = {:english => symbol[0], :japanese => symbol[1]}
