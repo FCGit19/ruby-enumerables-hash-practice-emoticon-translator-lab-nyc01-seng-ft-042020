@@ -23,7 +23,7 @@ def get_japanese_emoticon(path, symbol)
   
     each_emoticon.each do |name, value|
       
-      if each_emoticon[name][:english] == value
+      if each_emoticon[name][value] == symbol
         return symbol 
       end 
       
