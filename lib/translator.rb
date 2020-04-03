@@ -24,7 +24,7 @@ def get_japanese_emoticon(path, symbol)
     each_emoticon.each do |name, value|
       binding.pry
       if each_emoticon[name][:english] == symbol
-        return symbol 
+        return each_emoticon[name][:japanese] 
       end 
       
     end
