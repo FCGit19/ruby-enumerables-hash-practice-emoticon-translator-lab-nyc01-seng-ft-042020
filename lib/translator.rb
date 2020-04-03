@@ -18,17 +18,9 @@ def load_library(path)
 end
 
 
-def get_japanese_emoticon(path, symbol)
-  each_emoticon = load_library(path)
-  
-    each_emoticon.each do |name, value|
-      if each_emoticon[name][:japanese] == symbol
-        return name
-      end 
-      
-    end
-  
-end
+# def get_japanese_emoticon
+#   # code goes here
+# end
 
 
 # takes a Japanese emoticon and returns its name in #English. 
@@ -38,7 +30,7 @@ def get_english_meaning(path, symbol)
   
     each_emoticon.each do |name, value|
       
-      if each_emoticon[name][:english] == symbol
+      if each_emoticon[name][:japanese] == symbol
         return name
       end 
       
