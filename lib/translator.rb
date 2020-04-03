@@ -28,8 +28,6 @@ end
 def get_english_meaning(path, symbol)
   translate = load_library(path)
     translate.each do |name|
-      if !translate[:name][:english]
-        translate[:name][:english]
         binding.pry
       end
     end
