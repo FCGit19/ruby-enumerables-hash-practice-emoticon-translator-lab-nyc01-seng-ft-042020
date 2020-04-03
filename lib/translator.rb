@@ -33,6 +33,8 @@ def get_english_meaning(path, symbol)
         translation = name
       end 
         # binding.pry
+        
+        if each_emoticon[name]
       
     end
     translation
