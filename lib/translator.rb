@@ -10,7 +10,7 @@ def load_library(path)
     
   }
   
-  
+  binding.pry
     emoticons.each do |name, symbol|
    
   #     if !emoticon_names[name]
