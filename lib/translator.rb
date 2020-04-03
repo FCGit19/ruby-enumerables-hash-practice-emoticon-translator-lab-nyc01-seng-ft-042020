@@ -23,7 +23,7 @@ end
 # end
 
 
-
+# takes a Japanese emoticon and returns its name in #English. 
 def get_english_meaning(path, symbol)
   translate = load_library(path)
     translate.each do ||
