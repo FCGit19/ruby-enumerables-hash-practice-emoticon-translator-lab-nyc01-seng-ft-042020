@@ -1,4 +1,4 @@
-# require 'pry'
+require 'pry'
 require 'yaml'
 
 def load_library(path)
@@ -7,7 +7,7 @@ def load_library(path)
   emoticon_names = {}
   
     emoticons.each do |name, symbol|
-      
+      binding.pry
       if !emoticon_names[name]
         emoticon_names[name] = {:english => symbol, :japanese => symbol}
         # binding.pry
