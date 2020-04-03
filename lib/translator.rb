@@ -25,7 +25,6 @@ def get_japanese_emoticon(path, symbol)
       
       if each_emoticon[name][:english] == symbol
         return each_emoticon[name][:japanese] 
-      
       end 
       
     end
