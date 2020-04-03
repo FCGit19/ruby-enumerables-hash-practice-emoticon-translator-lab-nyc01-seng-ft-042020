@@ -30,5 +30,5 @@ def get_english_meaning(path, symbol)
     each_emoticon.each do |name|
         binding.pry
       
-    # end
+    end
 end
