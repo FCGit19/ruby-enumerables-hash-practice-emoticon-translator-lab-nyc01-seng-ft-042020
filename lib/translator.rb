@@ -1,4 +1,4 @@
-# require 'pry'
+require 'pry'
 require 'yaml'
 
 def load_library(path)
@@ -26,5 +26,7 @@ end
 
 def get_english_meaning(path, symbol)
   translate = load_library(path)
-  translate.each do ||
+    translate.each do ||
+      binding.pry
+    end
 end
