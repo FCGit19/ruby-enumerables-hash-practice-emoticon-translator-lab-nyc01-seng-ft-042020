@@ -25,6 +25,6 @@ end
 
 
 def get_english_meaning(load_library, symbol)
-  translate = load_library(emoticons)
+  translate = load_library(path)
   
 end
