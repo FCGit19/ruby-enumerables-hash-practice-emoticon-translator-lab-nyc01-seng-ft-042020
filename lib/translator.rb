@@ -35,6 +35,7 @@ def get_english_meaning(path, symbol)
         # binding.pry
         
         if each_emoticon[name][:japenese] != symbol
+          unknown_emoticon = "Sorry, that emoticon was not found"
         end
       
     end
