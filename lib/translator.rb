@@ -9,7 +9,7 @@ def load_library(path)
     emoticons.each do |name, symbol|
       binding.pry
       if !emoticon_names[name]
-        emoticon_names[name] = {:english => symbol, :japanese => symbol}
+        emoticon_names[name] = {:english => symbol[0], :japanese => symbol[1]}
         # binding.pry
       end 
         
