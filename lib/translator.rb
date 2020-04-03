@@ -29,7 +29,7 @@ def get_english_meaning(path, symbol)
   each_emoticon = load_library(path)
     each_emoticon.each do |name, value|
       if each_emoticon[name][:japanese] == symbol
-        each_emoticon[name]
+        name
         binding.pry
       
     end
