@@ -27,8 +27,8 @@ end
 
 def get_english_meaning(path, symbol)
   each_emoticon = load_library(path)
-    each_emoticon.each do |name|
+    # each_emoticon.each do |name|
         binding.pry
       
-    end
+    # end
 end
