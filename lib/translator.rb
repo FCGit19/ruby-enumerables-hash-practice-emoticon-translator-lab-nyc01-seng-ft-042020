@@ -26,6 +26,5 @@ end
 
 def get_english_meaning(path, symbol)
   translate = load_library(path)
-  translate(symbol)
-  returns translate
+  
 end
