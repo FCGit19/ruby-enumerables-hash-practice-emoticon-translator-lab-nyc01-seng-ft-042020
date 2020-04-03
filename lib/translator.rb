@@ -25,6 +25,7 @@ end
 
 
 def get_english_meaning(load_library, symbol)
+  emoticons = YAML.load_file(path)
   translate = load_library(emoticons)
   
 end
