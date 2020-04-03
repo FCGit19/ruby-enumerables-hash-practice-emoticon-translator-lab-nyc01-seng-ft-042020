@@ -26,8 +26,8 @@ end
 # takes a Japanese emoticon and returns its name in #English. 
 
 def get_english_meaning(path, symbol)
-  translate = load_library(path)
-    translate.each do |name|
+  each_emoticon = load_library(path)
+    each_emoticon.each do |name|
         binding.pry
     
     end
