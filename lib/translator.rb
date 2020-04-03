@@ -24,7 +24,7 @@ end
 
 
 
-def get_english_meaning(path, symbol)
+def get_english_meaning(load, symbol)
   translate = load_library(path)
   
 end
