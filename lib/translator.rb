@@ -32,7 +32,7 @@ def get_english_meaning(path, symbol)
       if each_emoticon[name][:japanese] == symbol
         translation = name
       end 
-        binding.pry
+        # binding.pry
         
         if each_emoticon[name]
         end
